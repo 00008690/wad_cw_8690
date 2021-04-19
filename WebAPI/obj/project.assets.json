@@ -1,42 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    ".NETFramework,Version=v5.0": {},
+    ".NETFramework,Version=v5.0/win7-x86": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    ".NETFramework,Version=v5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Azamat\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Bek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5BIS1\\2.WAD\\Projects\\WAD.8690.APP\\WAD.8690.APP\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Bek\\Desktop\\WAD.8690.APP (2)\\WAD.8690.APP\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\5BIS1\\2.WAD\\Projects\\WAD.8690.APP\\WAD.8690.APP\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Azamat\\.nuget\\packages\\",
-      "outputPath": "D:\\5BIS1\\2.WAD\\Projects\\WAD.8690.APP\\WAD.8690.APP\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Bek\\Desktop\\WAD.8690.APP (2)\\WAD.8690.APP\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Bek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bek\\Desktop\\WAD.8690.APP (2)\\WAD.8690.APP\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Azamat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net50"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "projectReferences": {}
         }
       },
@@ -47,27 +43,13 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      "net50": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
       }
     }
   }

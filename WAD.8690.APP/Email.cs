@@ -12,7 +12,7 @@ namespace WAD._8690.APP
         {
             
         }
-
+        //comment
         public void IsValidEmail(string email)
         {
             try
